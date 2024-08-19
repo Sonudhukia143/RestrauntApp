@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+    margin: 0px;
+}
+#nav--bar{
+    display: flex;
+    height: 4rem;
+    justify-content: space-evenly;
+    background-color: azure;
+    align-items: center;
+}
+#nav--bar button{
+    height: max-content;
+    font-size: 1.2rem;
+    padding: 7px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: text-shadow 0.3s ease-in-out;
+    border: 0px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    transition: text-decoration 0.3s ease-in-out;
+}
+button:hover{
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: aqua;
+    text-decoration: underline;
+}
+#content{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    max-width: 100%;
+}
